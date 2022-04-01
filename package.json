@@ -1,0 +1,60 @@
+{
+  "name": "album-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|sentry-expo|native-base)"
+      ],
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^4.2.0",
+    "@babel/preset-react": "^7.16.7",
+    "@react-native-community/cameraroll": "^4.1.2",
+    "@react-native-community/segmented-control": "^2.2.2",
+    "@react-native-community/slider": "^4.2.1",
+    "@react-native-picker/picker": "^2.4.0",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/stack": "^6.1.1",
+    "axios": "^0.26.1",
+    "babel-jest": "^27.5.1",
+    "expo": "~44.0.0",
+    "expo-status-bar": "~1.2.0",
+    "jest-expo": "^44.0.1",
+    "prettier": "^2.6.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "^2.3.2",
+    "react-native-pager-view": "^5.4.15",
+    "react-native-safe-area-context": "^4.2.2",
+    "react-native-web": "0.17.1",
+    "react-test-renderer": "^18.0.0",
+    "ts-jest": "^27.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^26.6.3"
+  },
+  "private": true
+}
